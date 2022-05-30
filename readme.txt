@@ -1,4 +1,4 @@
 - The "real" initially named files correspond to the real part of the complex refractive index of the materials.
 - The "imag" initially named files correspond to the imaginary part of the complex refractive index of the materials (which is responsible, in this case, for the material's absorption). Materials that do not feature this component are non-absorbant (such as SiO2 and Si3N4).
-- The left column of the file contains the wavelength to which the refractive index in the right column belongs.
+- The left column of the files contains the wavelength to which the refractive index in the right column belongs.
 - Be careful when interpolating these values for a desired wavelength range; some inaccurate values may appear (such as negative imaginary components, which translates to gain in the material instead of absorption), specially for perovskite at the end or outside its absorption window (ahead of approximately 790 nm).
